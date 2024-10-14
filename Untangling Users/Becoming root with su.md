@@ -1,4 +1,4 @@
-# Untangling Users
+# Becoming root with su
 In this challenge we need to use the `su` command, which stands for switch user, to switch user to `root`. The `su` command allows users to elevate privileges to another user, typically root. It works because the `su` binary has the `SUID` bit set, allowing it to run with the permissions of `root`. As per the challenge we need to invooke the `su` command and type in `hack-the-planet` as the password to gain administrative priviledges which will allow us to read the flag.
 
 # My Solve
