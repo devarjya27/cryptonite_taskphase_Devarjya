@@ -1,5 +1,5 @@
 # Starting Backgrounded Processes
-Instead of running a program, then suspending it, then resuming it in the background, we can directly run a process in the process by appending `&`. for example `/challenge/run &` will make sure that `/challenge/run` runs in the background.
+Instead of running a program, then suspending it, then resuming it in the background, we can directly run a process in the background by appending `&`. for example `/challenge/run &` will make sure that `/challenge/run` runs in the background.
 
 # My Solve
 To run `/challenge/run` in the background we need to append it with `&`.
